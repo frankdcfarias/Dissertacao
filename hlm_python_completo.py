@@ -444,7 +444,7 @@ def calcular_iccs(dados):
 # ==============================================================================
 
 def gerar_graficos_hlm(dados, resultados_hlm, dados_wide):
-    """Gera gráficos para análise HLM."""
+# Gera gráficos para análise HLM.
     
     print("\n=== GERANDO GRÁFICOS HLM ===\n")
     
@@ -588,7 +588,7 @@ def gerar_graficos_hlm(dados, resultados_hlm, dados_wide):
 # ==============================================================================
 
 def formular_equacoes(resultados_hlm, iccs):
-    """Formula as equações de regressão descobertas."""
+# Formula as equações de regressão descobertas.
     
     print("\n=== EQUAÇÕES DE REGRESSÃO DESCOBERTAS ===\n")
     
@@ -698,7 +698,7 @@ def formular_equacoes(resultados_hlm, iccs):
 # ==============================================================================
 
 def main():
-    """Executa análise HLM completa."""
+# Executa análise HLM completa.
     
     print("="*70)
     print("ANÁLISE HLM EM PYTHON - RADAR DA TRANSPARÊNCIA E IPS BRASIL")

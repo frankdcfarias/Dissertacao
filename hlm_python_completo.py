@@ -2,12 +2,12 @@
 # ANÁLISE HLM EM PYTHON - RADAR DA TRANSPARÊNCIA E IPS BRASIL
 # ==============================================================================
 #
-# Este script implementa modelos hierárquicos longitudinais (HLM) em Python
-# para analisar a relação entre Radar da Transparência e IPS Brasil (2023-2024)
+# Este script implementa (HLM) em Python para analisar a relação
+#  entre Radar da Transparência e IPS Brasil (2023-2024)
 # 
 # Estrutura: Tempo (Nível 1) → Municípios (Nível 2) → Estados (Nível 3)
 #
-# Autor: [Nome do Autor]
+# Autor: Frank Farias
 # Data: Setembro 2025
 # Dissertação de Mestrado
 

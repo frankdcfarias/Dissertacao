@@ -29,7 +29,7 @@ warnings.filterwarnings('ignore')
 # ==============================================================================
 
 def preparar_dados_hlm():
-    """Prepara dados longitudinais para análise HLM."""
+# Prepara dados longitudinais para análise HLM.
     
     print("=== PREPARAÇÃO DOS DADOS PARA HLM ===\n")
     
@@ -104,7 +104,7 @@ def preparar_dados_hlm():
 # ==============================================================================
 
 def analise_exploratoria(dados):
-    """Realiza análise exploratória dos dados longitudinais."""
+# Realiza análise exploratória dos dados longitudinais.
     
     print("\n=== ANÁLISE EXPLORATÓRIA ===\n")
     
@@ -149,7 +149,7 @@ def analise_exploratoria(dados):
 # ==============================================================================
 
 def modelo_hlm_sequencial(dados):
-    """Implementa sequência de modelos HLM usando statsmodels."""
+# Implementa sequência de modelos HLM usando statsmodels.
     
     print("\n=== MODELOS HIERÁRQUICOS SEQUENCIAIS ===\n")
     
@@ -271,7 +271,7 @@ def modelo_hlm_sequencial(dados):
 # ==============================================================================
 
 def analise_hlm_manual(dados):
-    """Implementa análise HLM manual usando decomposição between-within."""
+# Implementa análise HLM manual usando decomposição between-within.
     
     print("\n=== ANÁLISE HLM MANUAL (SKLEARN) ===\n")
     
@@ -397,7 +397,7 @@ def analise_hlm_manual(dados):
 # ==============================================================================
 
 def calcular_iccs(dados):
-    """Calcula correlações intraclasse (ICCs) para variáveis."""
+# Calcula correlações intraclasse (ICCs) para variáveis.
     
     print("\n=== CORRELAÇÕES INTRACLASSE (ICCs) ===\n")
     
